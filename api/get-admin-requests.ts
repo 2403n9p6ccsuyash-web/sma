@@ -1,4 +1,4 @@
-import { supabaseAdmin } from "./_utils";
+import { supabaseAdmin } from "./utils.js";
 
 export default async function handler(req: any, res: any) {
   if (req.method !== "GET") {
